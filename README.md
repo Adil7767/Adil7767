@@ -1,3 +1,8 @@
+<div style="text-align: center;">
+  <img src="https://user-images.githubusercontent.com/74038190/219923809-b86dc415-a0c2-4a38-bc88-ad6cf06395a8.gif" alt="Profile Animation" width="599" height="599"/>
+</div>
+# About Me
+
 👋 **Hello! I'm Adil Mustafa**
 
 🚀 **MERN Stack Developer** at Enigmatix Pvt Ltd with a passion for building modern, scalable, and user-friendly web and mobile applications. I specialize in the latest technologies including **React Native, React.js, Next.js, Node.js, and JavaScript**.
@@ -35,4 +40,3 @@ I'm always on the lookout for new tech trends, and I enjoy optimizing code for b
 ---
 
 *Crafted with ❤️ by Adil Mustafa*
-
