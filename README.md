@@ -7,7 +7,7 @@
 
 👋 **Hello! I'm Adil Mustafa**
 
-🚀 **MERN Stack Developer** at Enigmatix Pvt Ltd with a passion for building modern, scalable, and user-friendly web and mobile applications. I specialize in the latest technologies including **React Native, React.js, Next.js, Node.js, and JavaScript**.
+🚀 **MERN Stack Developer** with a passion for building modern, scalable, and user-friendly web and mobile applications. I specialize in the latest technologies including **React Native, React.js, Next.js, Node.js, TypeScript and JavaScript**.
 
 💼 **What I Do:**
 - Design and develop high-performance web and mobile applications using **React Native** for mobile and **React/Next.js** for web.
@@ -18,7 +18,7 @@
 🌱 **Skills & Technologies:**
 - **Frontend:** React, React Native, Next.js, Tailwind CSS, JavaScript, TypeScript
 - **Backend:** Node.js, Express.js, MongoDB
-- **Other Tools:** Git, Redux, REST APIs, Agile Development
+- **Other Tools:** Git, Redux, REST APIs, Agile Development,AWS deployment, Digital ocean deployment.
 
 👯 **I'm looking to collaborate on:**  
 Exciting projects in web and mobile development, especially ones that involve innovative UI/UX, complex functionalities, or cutting-edge technology.
