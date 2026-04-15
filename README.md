@@ -95,6 +95,7 @@
 ### 4) Babu ISP
 **Type:** Multi-tenant ISP SaaS (web + mobile)  
 **Stack:** Next.js, React, Prisma, Supabase, Expo, React Native, Playwright  
+**Live URL:** [https://babu-isp.vercel.app/](https://babu-isp.vercel.app/)
 **Highlights:**
 - Designed web API as the single DB-touching layer.
 - Mobile app consumes APIs cleanly without direct DB coupling.
@@ -174,6 +175,7 @@ Links below are taken from this product’s **staging/production configuration**
 |---|---|
 | **BridgeBond (production)** | [admin.bridgebond.ai](https://admin.bridgebond.ai) · [user.bridgebond.ai](https://user.bridgebond.ai) · [super-admin.bridgebond.ai](https://super-admin.bridgebond.ai) · [api.bridgebond.ai/v1](https://api.bridgebond.ai/v1) |
 | **BridgeBond (staging)** | [staging-admin.bridgebond.ai](https://staging-admin.bridgebond.ai) · [staging-user.bridgebond.ai](https://staging-user.bridgebond.ai) · [staging-api.bridgebond.ai/v1](https://staging-api.bridgebond.ai/v1) |
+| **Babu ISP** | [babu-isp.vercel.app](https://babu-isp.vercel.app/) |
 | **Oono** | [oono.ai](https://oono.ai) |
 | **Orum Training (website)** | [orumtraining.com](https://www.orumtraining.com/) |
 | **Orum Training (iOS app)** | [App Store](https://apps.apple.com/us/app/orum-training/id1607905730) |
