@@ -55,6 +55,13 @@
 ### 1) 360 Living
 **Type:** Property and school housing platform (admin + school portals)  
 **Stack:** Next.js, React, TanStack Query, Ant Design, Node.js, Express, Prisma, JWT, Swagger  
+**Live URLs:**
+- **Web (production):** [https://360living.ae](https://360living.ae) · **App:** [https://app.360living.ae](https://app.360living.ae)
+- **Web (staging):** [https://staging-app.360living.ae](https://staging-app.360living.ae)
+- **API (production):** [https://api.360living.ae/api/v1](https://api.360living.ae/api/v1)
+- **API (staging):** [https://staging-api.360living.ae/api/v1](https://staging-api.360living.ae/api/v1)
+- **Swagger (production):** [https://api.360living.ae/api/v1/docs/#](https://api.360living.ae/api/v1/docs/#)
+- **Swagger (staging):** [https://staging-api.360living.ae/api/v1/docs/#](https://staging-api.360living.ae/api/v1/docs/#)
 **Highlights:**
 - Built and maintained school/admin workflows for apartments, leases, and financial reporting.
 - Fixed Prisma/API issues causing production 500s on school/apartment endpoints.
@@ -72,6 +79,14 @@
 ### 3) BridgeBond
 **Type:** Multi-tenant enterprise management platform  
 **Stack:** Node.js, Express, MongoDB, React/Vite, Stripe, OpenAI, Pinecone, S3, Firebase  
+**Live URLs:**
+- **Admin (production):** [https://admin.bridgebond.ai](https://admin.bridgebond.ai)
+- **User (production):** [https://user.bridgebond.ai](https://user.bridgebond.ai)
+- **Super Admin (production):** [https://super-admin.bridgebond.ai](https://super-admin.bridgebond.ai)
+- **API (production):** [https://api.bridgebond.ai/v1](https://api.bridgebond.ai/v1)
+- **Staging admin:** [https://staging-admin.bridgebond.ai](https://staging-admin.bridgebond.ai)
+- **Staging user:** [https://staging-user.bridgebond.ai](https://staging-user.bridgebond.ai)
+- **Staging API:** [https://staging-api.bridgebond.ai/v1](https://staging-api.bridgebond.ai/v1)
 **Highlights:**
 - Organization hierarchy, RBAC, OTP auth, AI-assisted workflows.
 - Multiple frontends (web/client admin/super admin) over one backend core.
@@ -137,6 +152,37 @@
 - API design for multi-tenant systems and admin portals.
 - Cloud media/file pipelines and deployment automation.
 - Production debugging and stability improvements under live constraints.
+
+---
+
+## Live deployments & docs
+
+Links below are taken from this product’s **staging/production configuration** and **deploy documentation** (nginx, env examples, web client config).
+
+### 360 Living
+
+| Environment | Frontend | API base | API docs (Swagger) |
+|-------------|----------|----------|-------------------|
+| **Production** | [360living.ae](https://360living.ae) · [app.360living.ae](https://app.360living.ae) | [api.360living.ae/api/v1](https://api.360living.ae/api/v1) | [docs](https://api.360living.ae/api/v1/docs/#) |
+| **Staging** | [staging-app.360living.ae](https://staging-app.360living.ae) | [staging-api.360living.ae/api/v1](https://staging-api.360living.ae/api/v1) | [docs](https://staging-api.360living.ae/api/v1/docs/#) |
+
+**Hosting notes:** Web is set up for **AWS Amplify** (and can also go to Vercel or any Node host); API runs behind **nginx** with PM2 per backend deploy docs.
+
+### Additional live products
+
+| Product | Live link(s) |
+|---|---|
+| **BridgeBond (production)** | [admin.bridgebond.ai](https://admin.bridgebond.ai) · [user.bridgebond.ai](https://user.bridgebond.ai) · [super-admin.bridgebond.ai](https://super-admin.bridgebond.ai) · [api.bridgebond.ai/v1](https://api.bridgebond.ai/v1) |
+| **BridgeBond (staging)** | [staging-admin.bridgebond.ai](https://staging-admin.bridgebond.ai) · [staging-user.bridgebond.ai](https://staging-user.bridgebond.ai) · [staging-api.bridgebond.ai/v1](https://staging-api.bridgebond.ai/v1) |
+| **Oono** | [oono.ai](https://oono.ai) |
+| **Orum Training (website)** | [orumtraining.com](https://www.orumtraining.com/) |
+| **Orum Training (iOS app)** | [App Store](https://apps.apple.com/us/app/orum-training/id1607905730) |
+| **Enigmatix OMS** | [oms.enigmatix.co/login](https://www.oms.enigmatix.co/login) |
+
+**Notes:**
+- **Oono**: interactive AI stories for lead generation and conversion growth.
+- **Orum Training**: all-in-one fitness app (diet tracking, exercise plans, social).
+- **Enigmatix OMS**: office management platform for HR, salary, attendance, punch in/out, expenses, projects, and profiles.
 
 ---
 
